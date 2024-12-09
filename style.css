@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Young Serif", serif;
+    background-color: #f8f4ef;
+    margin: 5% 14%;
+    padding: 5%;
+    color: #333;
+    line-height: 1.6;
+}
+
+.RecipeImg {
+    border-radius: 20px;
+    width: 100%;
+    height: auto;
+}
+
+.RecipeBody {
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 2rem auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    padding: 1.5rem;
+
+}
+
+.RecipeBodyText {
+    padding: 2rem;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding-left: 1.5rem;
+}
+
+ul li,
+ol li {
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.preparation {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    color: #666;
+}
+
+.prep-time {
+    background-color: #f8f4ef;
+    border-radius: 20px;
+    margin: 1rem;
+    padding: 2rem;
+}
+
+.Nutrition ul li {
+    list-style: none;
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Nutrition {
+    padding: 1.5rem;
+}
+
+.Nutrition-list {
+    padding: 1.5rem;
+}
+
+.Nutrition li span:first-child {
+    width: 150px;
+    display: block;
+}
+
+.Nutrition li span:last-child {
+    color: #571a02;
+    text-align: center;
+    flex: 1;
+    display: block;
+    width: 100px;
+
+}
+
+
+h3 {
+    color: #910454;
+}
+
+h2 {
+    color: #571a02;
+}
+
+.Ingredients {
+    padding: 1.5rem;
+}
+
+.Instructions {
+    padding: 1.5rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
